@@ -39,6 +39,7 @@ input::placeholder{
 }
 
 .result iframe {
+  flex-basis: content;
   width: calc(25% - 20px); /* 25% width for each iframe with some margin */
   margin: 10px;
   box-sizing: border-box;
