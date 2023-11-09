@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{background: rgb(41, 41, 41);}
+
+.container{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  background: rgba(0, 255, 255, 0.211);
+  border: 2px solid aqua;
+  padding: 10px 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input::placeholder{
+  color: gray;
+  font-size: 20px;
+}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 5%;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.result iframe {
+  width: calc(25% - 20px); /* 25% width for each iframe with some margin */
+  margin: 10px;
+  box-sizing: border-box;
+}
